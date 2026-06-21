@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
 import heroImg from "@/assets/heroImg.jpg";
@@ -45,9 +44,7 @@ export default function Hero() {
 
             {/* Heading */}
             <h1 className="mt-8 text-4xl md:text-5xl lg:text-6xl font-black leading-[1.05]">
-              <span className="block text-slate-900">
-                Traditional
-              </span>
+              <span className="block text-slate-900">Traditional</span>
 
               <span className="block mt-2 bg-gradient-to-r from-yellow-500 via-amber-500 to-[color:var(--royal)] bg-clip-text text-transparent">
                 Sweets & Prasadams
@@ -84,19 +81,19 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link
-                to="/sweets"
+              <a
+                href="/sweets"
                 className="rounded-full bg-[color:var(--royal)] px-8 py-4 font-bold text-white shadow-xl transition-all hover:scale-105"
               >
                 Explore Products
-              </Link>
+              </a>
 
-              <Link
-                to="/contact"
+              <a
+                href="/contact"
                 className="rounded-full bg-yellow-500 px-8 py-4 font-bold text-black shadow-xl transition-all hover:scale-105"
               >
                 Contact Us
-              </Link>
+              </a>
             </div>
 
             {/* Trust Metrics */}

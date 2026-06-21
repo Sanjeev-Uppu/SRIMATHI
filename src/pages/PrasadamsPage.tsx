@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { createFileRoute } from "@tanstack/react-router";
 import { FaSearch } from "react-icons/fa";
 
 import {
@@ -9,11 +8,7 @@ import {
   toProducts,
 } from "@/components/site/shared";
 
-export const Route = createFileRoute("/prasadams")({
-  component: PrasadamsPage,
-});
-
-function PrasadamsPage() {
+export default function PrasadamsPage() {
   const all = useMemo(
     () => toProducts(prasadamModules, "prasadams"),
     []
@@ -24,9 +19,7 @@ function PrasadamsPage() {
   const filtered = useMemo(
     () =>
       all.filter((p) =>
-        p.name
-          .toLowerCase()
-          .includes(search.toLowerCase())
+        p.name.toLowerCase().includes(search.toLowerCase())
       ),
     [all, search]
   );
@@ -41,7 +34,6 @@ function PrasadamsPage() {
 
       <section className="pb-24">
         <div className="mx-auto max-w-7xl px-6">
-
           <div className="mb-8 rounded-2xl border border-yellow-300 bg-yellow-50 p-4 text-center">
             <p className="font-semibold text-yellow-800">
               🙏 Prasadam Items Available Only During Festival Times
@@ -54,9 +46,7 @@ function PrasadamsPage() {
 
               <input
                 value={search}
-                onChange={(e) =>
-                  setSearch(e.target.value)
-                }
+                onChange={(e) => setSearch(e.target.value)}
                 placeholder="Search prasadams..."
                 className="w-full pl-11 pr-4 py-3 rounded-full border border-[color:var(--border)] bg-white text-sm focus:outline-none focus:ring-2 focus:ring-[color:var(--brand)]"
               />

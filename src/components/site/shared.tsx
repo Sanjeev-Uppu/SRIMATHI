@@ -184,7 +184,7 @@ export const NAV_LINKS = [
   { label: "Hot Items", to: "/hot-items" },
   { label: "Prasadams", to: "/prasadams" },
     { label: "All Items", to: "/all-items" },
-  { label: "Specialties", to: "/specialties" },
+    { label: "Specialities", to: "/specialities" },
   { label: "About", to: "/about" },
   { label: "Contact", to: "/contact" },
 ] as const;
