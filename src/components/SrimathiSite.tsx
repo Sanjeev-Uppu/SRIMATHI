@@ -517,7 +517,7 @@ function About() {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
             <AnimatedCounter to={1000} label="Happy Customers" />
-            <AnimatedCounter to={50} label="Products" />
+            <AnimatedCounter to={100} label="Products" />
             <AnimatedCounter to={18} label="Prasadams" />
             <AnimatedCounter to={25} label="Years of Trust" />
           </div>

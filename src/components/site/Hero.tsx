@@ -109,7 +109,7 @@ export default function Hero() {
 
               <div>
                 <div className="text-3xl font-black text-[color:var(--royal)]">
-                  50+
+                  100+
                 </div>
                 <div className="text-sm text-slate-500">
                   Traditional Items

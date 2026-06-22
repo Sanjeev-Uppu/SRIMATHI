@@ -34,15 +34,15 @@ export const allItems: FoodItem[] = [
   { id: 25, telugu: "పల్లీ చిక్కీ", english: "Palli Chikki", category: "Sweet" },
   { id: 26, telugu: "నువ్వుల అరిశలు", english: "Nuvvula Ariselu", category: "Sweet" },
   { id: 27, telugu: "పాకం గారెలు", english: "Pakam Garelu", category: "Sweet" },
-  { id: 28, telugu: "మోతీమాల్ లడ్డు (నెయ్యి మిక్స్)", english: "Motimal Laddu (Neyyi Mix)", category: "Sweet" },
+  { id: 28, telugu: "మోతీమాల్ లడ్డు (నెయ్యి మిక్స్)", english: "Motimal Laddu (Neyyi Mix)", category: "Sweet" }, /*----------Needs to replce --------------*/
   { id: 29, telugu: "బెల్లం బూంది లడ్డు (నెయ్యి మిక్స్)", english: "Bellam Boondi Laddu (Neyyi Mix)", category: "Sweet" },
-  { id: 30, telugu: "ఆగ్రా పేటా", english: "Agra Peta", category: "Sweet" },
-  { id: 31, telugu: "చమ్ చమ్", english: "Cham Cham", category: "Sweet" },
-  { id: 32, telugu: "కాలా చమ్", english: "Kala Cham", category: "Sweet" },
-  { id: 33, telugu: "అంగూర్", english: "Angoor", category: "Sweet" },
+  { id: 30, telugu: "అంగూర్", english: "Angur", category: "Sweet" }, /*----------Needs to replce --------------*/
+  { id: 31, telugu: "చమ్ చమ్", english: "Cham Cham", category: "Sweet" },  
+  { id: 32, telugu: "కాలాజామ్", english: "Kalajaam", category: "Sweet" }, /*----------Needs to replce --------------*/
+  { id: 33, telugu: "బ్లాక్ అంగూర్", english: "Black Angoor", category: "Sweet" }, /*----------Needs to replce --------------*/
   { id: 34, telugu: "చలిమిడి", english: "Chalimidi", category: "Sweet" },
   { id: 35, telugu: "సగ్గుబియ్యం చెక్కలు", english: "Saggubiyyam Chekkalu", category: "Hot Item" },
-  { id: 36, telugu: "చెక్కలు", english: "Chekkalu", category: "Hot Item" },
+  { id: 36, telugu: "చెక్కలు", english: "Chekkalu", category: "Hot Item" }, /*----------Needs to replce --------------*/
   { id: 37, telugu: "పెసరపప్పు చెక్కలు", english: "Pesarapappu Chekkalu", category: "Hot Item" },
   { id: 38, telugu: "చేతి చెక్కలు", english: "Chethi Chekkalu", category: "Hot Item" },
   { id: 39, telugu: "జంతికలు", english: "Janthikalu", category: "Hot Item" },
@@ -61,12 +61,12 @@ export const allItems: FoodItem[] = [
   { id: 52, telugu: "బెల్లం కొమ్ములు", english: "Bellam Kommulu", category: "Sweet" },
   { id: 53, telugu: "మోతీచూర్ మిఠాయి", english: "Motichoor Mithai", category: "Sweet" },
   { id: 54, telugu: "బెల్లం నమ్కీన్స్", english: "Bellam Namkeens", category: "Sweet" },
-  { id: 55, telugu: "కొబ్బరి ఉండలు", english: "Kobbari Undalu", category: "Sweet" },
+  { id: 55, telugu: "కొబ్బరి ఉండలు", english: "Bellam Kobbari Undalu", category: "Sweet" },
   { id: 56, telugu: "గోరుమిట్టీలు", english: "Gorumittilu", category: "Sweet" },
   { id: 57, telugu: "కజ్జికాయలు", english: "Kajjikayalu", category: "Sweet" },
   { id: 58, telugu: "డ్రైఫ్రూట్స్ కజ్జికాయలు", english: "Dry Fruits Kajjikayalu", category: "Sweet" },
-  { id: 59, telugu: "పరారువ", english: "Pararuva", category: "Sweet" },
-  { id: 60, telugu: "గ్రేస్ హల్వా", english: "Grace Halwa", category: "Sweet" },
+  { id: 59, telugu: "ఆరెంజ్ హల్వా", english: "Orange Halwa", category: "Sweet" }, /*----------Needs to replce--------------*/
+  { id: 60, telugu: "గ్రేస్ హల్వా", english: "Grace Halwa", category: "Sweet" }, /*----------Needs to replce --------------*/
   { id: 61, telugu: "పంతువ", english: "Panthuva", category: "Sweet" },
   { id: 62, telugu: "సజ్జ అప్పాలు", english: "Sajja Appalu", category: "Sweet" },
   { id: 63, telugu: "చాక్లెట్ కోవా", english: "Chocolate Kova", category: "Sweet" },
@@ -112,7 +112,7 @@ export const allItems: FoodItem[] = [
   { id: 101, telugu: "ఉండ్రాళ్ళ పాయసం", english: "Undralla Payasam", category: "Prasadam" },
   { id: 102, telugu: "చలిమిడి", english: "Chalimidi", category: "Prasadam" },
   { id: 103, telugu: "శనగలు", english: "Shanagalu", category: "Prasadam" },
-  { id: 104, telugu: "హారతి", english: "Harathi", category: "Prasadam" },
+  { id: 104, telugu: "హారిధి", english: "Haridhi", category: "Prasadam" }, /*----------Needs to replce --------------*/
   { id: 105, telugu: "వినాయక లడ్డు", english: "Vinayaka Laddu", category: "Prasadam" },
   { id: 106, telugu: "కుడుములు", english: "Kudumulu", category: "Prasadam" },
   { id: 107, telugu: "పులిహోర", english: "Pulihora", category: "Prasadam" },

@@ -9,6 +9,7 @@ import BellamSunnunda from "@/assets/sweets/Bellam Sunnunda.png";
 import BellamPongadalu from "@/assets/sweets/Bellam Pongadalu.png";
 import BellamBandharuHalwa from "@/assets/sweets/Bellam Bandharu Halwa.png";
 import BellamBoorelu from "@/assets/sweets/Bellam Boorelu(Poornalu).png";
+import BellamGorimittilu from "@/assets/sweets/Bellam Gorimittilu.png";
 
 import DryFruitBellamPootharekulu from "@/assets/sweets/Dry Fruit Bellam Pootharekulu.png";
 import DryFruitKajjikaya from "@/assets/sweets/Dry Fruit Kajjikaya.png";
@@ -35,6 +36,8 @@ import Mixture from "@/assets/hot/Mixture.png";
 import PesaraPappuChekkalu from "@/assets/hot/Pesara Pappu Chekkalu(Spicy).png";
 import SagguBiyyamChakkalu from "@/assets/hot/Saggu Biyyam Chakkalu.png";
 import Sev from "@/assets/hot/Sev.png";
+import Namkeens from "@/assets/hot/Namkeens.png";
+import MethiChekkalu from "@/assets/hot/Methi Chekkalu.png";
 export interface ComboItem {
   en: string;
   te: string;
@@ -66,7 +69,7 @@ export const comboData: Combo[] = [
     items: [
       { en: "Bellam Gavvalu", te: "బెల్లం గవ్వలు", image: BellamGavvalu },
       { en: "Palli Chikki", te: "పల్లి చిక్కి", image: BellamPalliChikki },
-      { en: "Kajjikaya", te: "కాజ్జికాయ", image: KovaKajjikaya },
+      { en: "Kajjikayalu", te: "కాజ్జికాయలు", image: DryFruitKajjikaya }, /*----------Needs to replce --------------*/
       { en: "Murukulu", te: "మురుకులు", image: ButterMurukulu },
       { en: "Mixture", te: "మిక్చర్", image: Mixture },
     ],
@@ -82,9 +85,9 @@ export const comboData: Combo[] = [
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
       { en: "Bellam Namkeen", te: "బెల్లం నమ్కీన్", image: BellamGavvalu },
-      { en: "Mothichoor Bellam Chikki", te: "మోతిచూర్ చిక్కి", image: PanchadaraLaddu },
-      { en: "Dry Fruit Kajjikaya", te: "డ్రై ఫ్రూట్ కాజ్జికాయ", image: DryFruitKajjikaya },
-      { en: "Butter Ribbon Pakodi", te: "బటర్ పకోడి", image: ButterMurukulu },
+      { en: "Mothichoor Bellam Chikki", te: "మోతిచూర్ చిక్కి", image: BellamBoondiChikki },
+      { en: "Dry Fruit Kajjikayalu", te: "డ్రై ఫ్రూట్ కాజ్జికాయలు", image: DryFruitKajjikaya }, /*----------Needs to replce --------------*/
+      { en: "Butter Ribbon Pakodi", te: "బటర్ రిబ్బన్ పకోడి", image: JeediPappuPakodi }, /*----------Needs to replce --------------*/
       { en: "Cornflakes Mixture", te: "కార్న్ ఫ్లేక్స్ మిక్చర్", image: CornFlakesMixture },
     ],
     pricing: {
@@ -98,11 +101,11 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Kommulu", te: "బెల్లం కొమ్ములు", image: BellamJeedipappuPaakam },
-      { en: "Bellam Boondi Mithai", te: "బెల్లం మిఠాయి", image: BellamBoondiChikki },
+      { en: "Bellam Kommulu", te: "బెల్లం కొమ్ములు", image: BellamGorimittilu },
+      { en: "Bellam Boondi Mithai", te: "బెల్లం బూంది మిఠాయి", image: BellamBoondiChikki }, /*----------Needs to replce --------------*/
       { en: "Gulabeelu", te: "గులాబీలు", image: Gulabeelu },
       { en: "Saggu Biyyam Chekkalu", te: "సగ్గుబియ్యం చెక్కలు", image: SagguBiyyamChakkalu },
-      { en: "Karam Boondi", te: "కారం బూంది", image: Sev },
+      { en: "Karam Boondi", te: "కారం బూంది", image: Mixture },
     ],
     pricing: {
       "250": { actual: 700, offer: 599 },
@@ -117,8 +120,8 @@ export const comboData: Combo[] = [
     items: [
       { en: "Jeedipappu Chikki", te: "జీడిపప్పు చిక్కి", image: BellamJeedipappuPaakam },
       { en: "Nuvvula Chimmidi", te: "నువ్వుల చిమ్మిడి", image: BellamNuvvulaChimmidi },
-      { en: "Bellam Sunnunda", te: "బెల్లం సున్నుండ", image: BellamSunnunda },
-      { en: "Pesarapappu Chillilu", te: "పెసరపప్పు", image: PesaraPappuChekkalu },
+      { en: "Bellam Sunnundalu", te: "బెల్లం సున్నుండలు", image: BellamSunnunda }, /*----------Needs to replce --------------*/
+      { en: "Pesarapappu Chekkalu", te: "పెసరపప్పు చెక్కలు", image: PesaraPappuChekkalu }, /*----------Needs to replce --------------*/
       { en: "Agra Mixture", te: "ఆగ్రా మిక్చర్", image: AgraMixture },
     ],
     pricing: {
@@ -132,9 +135,9 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Bandhar Halwa", te: "బందరు హల్వా", image: BellamBandharuHalwa },
-      { en: "Dry Fruit Pootharekulu", te: "పూతరేకులు", image: DryFruitBellamPootharekulu },
-      { en: "Bellam Boondi Laddu", te: "బూంది లడ్డు", image: BellamBoorelu },
+      { en: "Bellam Bandhar Halwa", te: "బెల్లం బందరు హల్వా", image: BellamBandharuHalwa }, /*----------Needs to replce --------------*/
+      { en: "Dry Fruit Pootharekulu", te: " డ్రై ఫ్రూట్ పూతరేకులు", image: DryFruitBellamPootharekulu },/*----------Needs to replce --------------*/
+      { en: "Bellam Boondi Chikki", te: "బెల్లం బూందీ చిక్కీ", image: BellamBoondiChikki }, /*----------Needs to replce --------------*/
       { en: "Chitti Chekodi", te: "చిట్టి చెకోడి", image: ChittiPappuChekodi },
       { en: "Jeedipappu Pakodi", te: "జీడిపప్పు పకోడి", image: JeediPappuPakodi },
     ],
@@ -149,11 +152,11 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Roasted Kali Choori", te: "రోస్టెడ్", image: RoastedKovaBillalu },
-      { en: "Brown Kaaja", te: "బ్రౌన్ ఖాజా", image: Kaajalu },
+      { en: "Roasted Kalakhand", te: "రోస్టెడ్ కళాఖండ్", image: RoastedKovaBillalu }, /*----------Needs to replce --------------*/
+      { en: "Roasted Kaja", te: "బ్రౌన్ ఖాజా", image: Kaajalu }, /*----------Needs to replce --------------*/
       { en: "Kaaju Burfy", te: "కాజు బర్ఫీ", image: KaajuBurfy },
-      { en: "Karam Namkeen", te: "కారం నమ్కీన్", image: KaajuMasala },
-      { en: "Mothi Chikki", te: "మోతి చిక్కి", image: BellamPalliChikki },
+      { en: "Namkeen", te: "నమ్కీన్", image: Namkeens },
+      { en: "Methi Chekkalu", te: "మేతి చెక్కలు", image: MethiChekkalu }, /*----------Needs to replce --------------*/
     ],
     pricing: {
       "250": { actual: 900, offer: 799 },
@@ -166,9 +169,9 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Nethi Ariselu", te: "నేతి అరిసెలు", image: BellamNethiAriselu },
+      { en: "Bellam Nethi Ariselu", te: "బెల్లం నేతి అరిసెలు", image: BellamNethiAriselu }, /*----------Needs to replce --------------*/
       { en: "Dry Fruit Laddu", te: "డ్రై ఫ్రూట్ లడ్డు", image: DryFruitLaddu },
-      { en: "Bellam Pootharekulu", te: "పూతరేకులు", image: DryFruitBellamPootharekulu },
+      { en: "Bellam Pootharekulu", te: "బెల్లం పూతరేకులు", image: DryFruitBellamPootharekulu },/*----------Needs to replce --------------*/
       { en: "Aalu Bhujiya", te: "ఆలు భుజియా", image: Sev },
       { en: "Janthikalu", te: "జంతికలు", image: Janthikalu },
     ],
@@ -183,15 +186,15 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Bobbatlu", te: "బొబ్బట్లు", image: BellamBobbatlu },
+      { en: "Bellam Bobbatlu", te: "బెల్లం బొబ్బట్లు", image: BellamBobbatlu },/*----------Needs to replce --------------*/
       { en: "Pongadalu", te: "పొంగడాలు", image: BellamPongadalu },
       { en: "Nuvvula Ariselu", te: "నువ్వుల అరిసెలు", image: BellamNethiAriselu },
       { en: "Karam Poosa", te: "కారం పూస", image: Sev },
       { en: "Palli Pakodi", te: "పల్లి పకోడి", image: JeediPappuPakodi },
     ],
     pricing: {
-      "250": { actual: 700, offer: 699 },
-      "500": { actual: 1600, offer: 1349 },
+      "250": { actual: 700, offer: 599 },
+      "500": { actual: 1400, offer: 1149 },
     },
   },
 
@@ -204,10 +207,10 @@ export const comboData: Combo[] = [
       { en: "Paakam Garelu", te: "పాకం గారెలు", image: BellamBoorelu },
       { en: "Annamayya Laddu", te: "అన్నమయ్య లడ్డు", image: PanchadaraLaddu },
       { en: "Vaamu Poosa", te: "వాము పూస", image: ChittiVaamuChekodi },
-      { en: "Ghaliya", te: "ఘాలియా", image: ChittiVaamuChekodi },
+      { en: "Ghatiya", te: "ఘటియా", image: ChittiVaamuChekodi }, /*----------Needs to replce --------------*/
     ],
     pricing: {
-      "250": { actual: 700, offer: 699 },
+      "250": { actual: 700, offer: 599 },
       "500": { actual: 1400, offer: 1149 },
     },
   },
