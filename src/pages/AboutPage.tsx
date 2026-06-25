@@ -13,23 +13,29 @@ export default function AboutPage() {
 
       <section className="pb-24">
         <div className="mx-auto max-w-7xl px-6 grid md:grid-cols-2 gap-12 items-center">
+          {/* Image */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="relative rounded-3xl overflow-hidden shadow-[var(--shadow-premium)]"
+            className="rounded-3xl overflow-hidden shadow-[var(--shadow-premium)] bg-white"
           >
             <img
               src={storeImg}
-              alt="Srimathi Foods store"
+              alt="Srimathi Foods Store"
               loading="lazy"
-              className="w-full h-[60vh] object-cover"
+              className="
+                w-full
+                h-auto
+                object-contain
+                rounded-3xl
+                max-h-[80vh]
+              "
             />
-
-            {/* Floating Card Removed */}
           </motion.div>
 
+          {/* Content */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -52,8 +58,9 @@ export default function AboutPage() {
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+
               <div className="text-center">
-                <div className="text-3xl md:text-5xl font-bold text-gradient-royal">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-gradient-royal leading-normal whitespace-nowrap">
                   100K+
                 </div>
 
@@ -62,9 +69,36 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              <AnimatedCounter to={100} label="Products" />
-              <AnimatedCounter to={18} label="Prasadams" />
-              <AnimatedCounter to={9} label="Years of Trust" />
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-gradient-royal leading-normal whitespace-nowrap">
+                  100+
+                </div>
+
+                <div className="mt-2 text-sm uppercase tracking-widest text-muted-foreground">
+                  Products
+                </div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-gradient-royal leading-normal whitespace-nowrap">
+                  18+
+                </div>
+
+                <div className="mt-2 text-sm uppercase tracking-widest text-muted-foreground">
+                  Prasadams
+                </div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-gradient-royal leading-normal whitespace-nowrap">
+                  9+
+                </div>
+
+                <div className="mt-2 text-sm uppercase tracking-widest text-muted-foreground">
+                  Years of Trust
+                </div>
+              </div>
+
             </div>
           </motion.div>
         </div>
