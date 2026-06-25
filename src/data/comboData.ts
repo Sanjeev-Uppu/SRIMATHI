@@ -11,7 +11,7 @@ import BellamBandharuHalwa from "@/assets/sweets/Bellam Bandharu Halwa.png";
 import BellamBoorelu from "@/assets/sweets/Bellam Boorelu(Poornalu).png";
 import BellamGorimittilu from "@/assets/sweets/Bellam Gorimittilu.png";
 import BellamDiamonds from "@/assets/sweets/Bellam Diamonds.png";
-import DryFruitBellamPootharekulu from "@/assets/sweets/Dry Fruit Bellam Pootharekulu.png";
+import DryFruitBellamPootharekulu from "@/assets/sweets/Dry Fruit Bellam pootharekulu.png";
 import DryFruitKajjikaya from "@/assets/sweets/Dry Fruit Kajjikaya.png";
 import DryFruitLaddu from "@/assets/sweets/Dry Fruit Laddu.png";
 
