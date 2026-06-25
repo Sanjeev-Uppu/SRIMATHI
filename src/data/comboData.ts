@@ -11,7 +11,7 @@ import BellamBandharuHalwa from "@/assets/sweets/Bellam Bandharu Halwa.png";
 import BellamBoorelu from "@/assets/sweets/Bellam Boorelu(Poornalu).png";
 import BellamGorimittilu from "@/assets/sweets/Bellam Gorimittilu.png";
 import BellamDiamonds from "@/assets/sweets/Bellam Diamonds.png";
-import DryFruitBellamPootharekulu from "@/assets/sweets/Dry Fruit Bellam pootharekulu.png";
+import DryFruitBellamPootharekulu from "@/assets/sweets/Dry Fruit Bellam Pootharekulu.png";
 import DryFruitKajjikaya from "@/assets/sweets/Dry Fruit Kajjikaya.png";
 import DryFruitLaddu from "@/assets/sweets/Dry Fruit Laddu.png";
 
@@ -25,7 +25,7 @@ import Chalividi from "@/assets/sweets/Chalividi.png";
 import BellamMothichoorChikki from "@/assets/sweets/Bellam Mothichoor Chikki.png";
 import BellamKommulu from "@/assets/sweets/Bellam Kommulu.png";
 import RoastedKhalakhand from "@/assets/sweets/Roasted Khalakhand.png";
-import BellamPootharekulu from "@/assets/sweets/Bellam Pootharekulu.png";
+import BellamPootharekulu from "@/assets/sweets/Bellam pootharekulu.png";
 import BellamNuvvulaArisealu from "@/assets/sweets/Bellam Nuvvula Ariselu.png";
 // PRASADAMS
 import PaakamGarelu from "@/assets/prasadams/Paakam Garelu.png";
