@@ -5,6 +5,7 @@ import SaareSection from "../components/site/SaareSection";
 import WhyChooseUs from "../components/site/WhyChooseUs";
 import Testimonials from "../components/site/Testimonials";
 import SpecialOffers from "../components/site/SpecialOffers";
+import Specialities from "../components/site/Specialities";
 import { SectionTitle } from "../components/site/shared";
 
 export default function HomePage() {
@@ -39,6 +40,10 @@ export default function HomePage() {
 
       <SaareSection />
 
+      {/* Specialities Section */}
+      <Specialities />
+
+      {/* Premium Collections */}
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-6">
           <SectionTitle

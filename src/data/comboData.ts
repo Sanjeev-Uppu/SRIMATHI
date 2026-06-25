@@ -10,7 +10,7 @@ import BellamPongadalu from "@/assets/sweets/Bellam Pongadalu.png";
 import BellamBandharuHalwa from "@/assets/sweets/Bellam Bandharu Halwa.png";
 import BellamBoorelu from "@/assets/sweets/Bellam Boorelu(Poornalu).png";
 import BellamGorimittilu from "@/assets/sweets/Bellam Gorimittilu.png";
-
+import BellamDiamonds from "@/assets/sweets/Bellam Diamonds.png";
 import DryFruitBellamPootharekulu from "@/assets/sweets/Dry Fruit Bellam Pootharekulu.png";
 import DryFruitKajjikaya from "@/assets/sweets/Dry Fruit Kajjikaya.png";
 import DryFruitLaddu from "@/assets/sweets/Dry Fruit Laddu.png";
@@ -22,6 +22,14 @@ import KovaKajjikaya from "@/assets/sweets/Kova Kajjikaya(Chandrakala).png";
 import PanchadaraLaddu from "@/assets/sweets/Panchadara Laddu.png";
 import RoastedKovaBillalu from "@/assets/sweets/Roasted Kova Billalu.png";
 import Chalividi from "@/assets/sweets/Chalividi.png";
+import BellamMothichoorChikki from "@/assets/sweets/Bellam Mothichoor Chikki.png";
+import BellamKommulu from "@/assets/sweets/Bellam Kommulu.png";
+import RoastedKhalakhand from "@/assets/sweets/Roasted Khalakhand.png";
+import BellamPootharekulu from "@/assets/sweets/Bellam Pootharekulu.png";
+import BellamNuvvulaArisealu from "@/assets/sweets/Bellam Nuvvula Ariselu.png";
+// PRASADAMS
+import PaakamGarelu from "@/assets/prasadams/Paakam Garelu.png";
+import AnnamayyaLaddu from "@/assets/prasadams/Annamayya Laddu.png";
 
 // HOT ITEMS
 import AgraMixture from "@/assets/hot/Agra Mixture.png";
@@ -38,6 +46,14 @@ import SagguBiyyamChakkalu from "@/assets/hot/Saggu Biyyam Chakkalu.png";
 import Sev from "@/assets/hot/Sev.png";
 import Namkeens from "@/assets/hot/Namkeens.png";
 import MethiChekkalu from "@/assets/hot/Methi Chekkalu.png";
+import ButterRibbonPakodi from "@/assets/hot/Butter Ribbon Pakodi.png";
+import KaaramBoondi from "@/assets/hot/Kaaram Boondi.png";
+import Alubujiya from "@/assets/hot/Alu bujiya.png";
+import KaramPoosa from "@/assets/hot/Karam Poosa.png";
+import SajjaAppalu from "@/assets/hot/Sajja Appalu.png";
+import VaamuPusa from "@/assets/hot/Vaamu Pusa.png";
+import Ghatiya from "@/assets/hot/Ghatiya.png";
+import PalliPakodi from "@/assets/hot/Palli Pakodi.png";
 export interface ComboItem {
   en: string;
   te: string;
@@ -84,10 +100,10 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Namkeen", te: "బెల్లం నమ్కీన్", image: BellamGavvalu },
-      { en: "Mothichoor Bellam Chikki", te: "మోతిచూర్ చిక్కి", image: BellamBoondiChikki },
+      { en: "Bellam Namkeen", te: "బెల్లం నమ్కీన్", image: BellamDiamonds },
+      { en: "Mothichoor Bellam Chikki", te: "మోతిచూర్ చిక్కి", image: BellamMothichoorChikki },
       { en: "Dry Fruit Kajjikayalu", te: "డ్రై ఫ్రూట్ కాజ్జికాయలు", image: DryFruitKajjikaya }, /*----------Needs to replce --------------*/
-      { en: "Butter Ribbon Pakodi", te: "బటర్ రిబ్బన్ పకోడి", image: JeediPappuPakodi }, /*----------Needs to replce --------------*/
+      { en: "Butter Ribbon Pakodi", te: "బటర్ రిబ్బన్ పకోడి", image: ButterRibbonPakodi }, /*----------Needs to replce --------------*/
       { en: "Cornflakes Mixture", te: "కార్న్ ఫ్లేక్స్ మిక్చర్", image: CornFlakesMixture },
     ],
     pricing: {
@@ -101,11 +117,11 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Kommulu", te: "బెల్లం కొమ్ములు", image: BellamGorimittilu },
+      { en: "Bellam Kommulu", te: "బెల్లం కొమ్ములు", image: BellamKommulu },
       { en: "Bellam Boondi Mithai", te: "బెల్లం బూంది మిఠాయి", image: BellamBoondiChikki }, /*----------Needs to replce --------------*/
       { en: "Gulabeelu", te: "గులాబీలు", image: Gulabeelu },
       { en: "Saggu Biyyam Chekkalu", te: "సగ్గుబియ్యం చెక్కలు", image: SagguBiyyamChakkalu },
-      { en: "Karam Boondi", te: "కారం బూంది", image: Mixture },
+      { en: "Karam Boondi", te: "కారం బూంది", image: KaaramBoondi },
     ],
     pricing: {
       "250": { actual: 700, offer: 599 },
@@ -138,7 +154,7 @@ export const comboData: Combo[] = [
       { en: "Bellam Bandhar Halwa", te: "బెల్లం బందరు హల్వా", image: BellamBandharuHalwa }, /*----------Needs to replce --------------*/
       { en: "Dry Fruit Pootharekulu", te: " డ్రై ఫ్రూట్ పూతరేకులు", image: DryFruitBellamPootharekulu },/*----------Needs to replce --------------*/
       { en: "Bellam Boondi Chikki", te: "బెల్లం బూందీ చిక్కీ", image: BellamBoondiChikki }, /*----------Needs to replce --------------*/
-      { en: "Chitti Chekodi", te: "చిట్టి చెకోడి", image: ChittiPappuChekodi },
+      { en: "Chitti Pappu Chekodi", te: "చిట్టి చెకోడి", image: ChittiPappuChekodi },/*---------- final  -------------*/
       { en: "Jeedipappu Pakodi", te: "జీడిపప్పు పకోడి", image: JeediPappuPakodi },
     ],
     pricing: {
@@ -152,8 +168,8 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Roasted Kalakhand", te: "రోస్టెడ్ కళాఖండ్", image: RoastedKovaBillalu }, /*----------Needs to replce --------------*/
-      { en: "Roasted Kaja", te: "బ్రౌన్ ఖాజా", image: Kaajalu }, /*----------Needs to replce --------------*/
+      { en: "Roasted Kalakhand", te: "రోస్టెడ్ కళాఖండ్", image: RoastedKhalakhand }, /*----------Needs to replce --------------*/
+      { en: "Roasted Kova Billalu", te: " ఖాజా", image: RoastedKovaBillalu }, /*---------- final --------------*/
       { en: "Kaaju Burfy", te: "కాజు బర్ఫీ", image: KaajuBurfy },
       { en: "Namkeen", te: "నమ్కీన్", image: Namkeens },
       { en: "Methi Chekkalu", te: "మేతి చెక్కలు", image: MethiChekkalu }, /*----------Needs to replce --------------*/
@@ -171,8 +187,8 @@ export const comboData: Combo[] = [
     items: [
       { en: "Bellam Nethi Ariselu", te: "బెల్లం నేతి అరిసెలు", image: BellamNethiAriselu }, /*----------Needs to replce --------------*/
       { en: "Dry Fruit Laddu", te: "డ్రై ఫ్రూట్ లడ్డు", image: DryFruitLaddu },
-      { en: "Bellam Pootharekulu", te: "బెల్లం పూతరేకులు", image: DryFruitBellamPootharekulu },/*----------Needs to replce --------------*/
-      { en: "Aalu Bhujiya", te: "ఆలు భుజియా", image: Sev },
+      { en: "Bellam Pootharekulu", te: "బెల్లం పూతరేకులు", image: BellamPootharekulu },/*----------Needs to replce --------------*/
+      { en: "Aalu Bhujiya", te: "ఆలు భుజియా", image: Alubujiya },
       { en: "Janthikalu", te: "జంతికలు", image: Janthikalu },
     ],
     pricing: {
@@ -188,9 +204,9 @@ export const comboData: Combo[] = [
     items: [
       { en: "Bellam Bobbatlu", te: "బెల్లం బొబ్బట్లు", image: BellamBobbatlu },/*----------Needs to replce --------------*/
       { en: "Pongadalu", te: "పొంగడాలు", image: BellamPongadalu },
-      { en: "Nuvvula Ariselu", te: "నువ్వుల అరిసెలు", image: BellamNethiAriselu },
-      { en: "Karam Poosa", te: "కారం పూస", image: Sev },
-      { en: "Palli Pakodi", te: "పల్లి పకోడి", image: JeediPappuPakodi },
+      { en: "Nuvvula Ariselu", te: "నువ్వుల అరిసెలు", image: BellamNuvvulaArisealu },
+      { en: "Karam Poosa", te: "కారం పూస", image: KaramPoosa },
+      { en: "Palli Pakodi", te: "పల్లి పకోడి", image: PalliPakodi },
     ],
     pricing: {
       "250": { actual: 700, offer: 599 },
@@ -203,11 +219,11 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Sajja Appalu", te: "సజ్జ అప్పాలు", image: Chalividi },
-      { en: "Paakam Garelu", te: "పాకం గారెలు", image: BellamBoorelu },
-      { en: "Annamayya Laddu", te: "అన్నమయ్య లడ్డు", image: PanchadaraLaddu },
-      { en: "Vaamu Poosa", te: "వాము పూస", image: ChittiVaamuChekodi },
-      { en: "Ghatiya", te: "ఘటియా", image: ChittiVaamuChekodi }, /*----------Needs to replce --------------*/
+      { en: "Sajja Appalu", te: "సజ్జ అప్పాలు", image: SajjaAppalu },
+      { en: "Paakam Garelu", te: "పాకం గారెలు", image: PaakamGarelu },
+      { en: "Annamayya Laddu", te: "అన్నమయ్య లడ్డు", image: AnnamayyaLaddu },
+      { en: "Vaamu Poosa", te: "వాము పూస", image: VaamuPusa },
+      { en: "Ghatiya", te: "ఘటియా", image: Ghatiya }, /*----------Needs to replce --------------*/
     ],
     pricing: {
       "250": { actual: 700, offer: 599 },
