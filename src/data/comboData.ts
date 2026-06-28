@@ -54,6 +54,7 @@ import SajjaAppalu from "@/assets/hot/Sajja Appalu.png";
 import VaamuPusa from "@/assets/hot/Vaamu Pusa.png";
 import Ghatiya from "@/assets/hot/Ghatiya.png";
 import PalliPakodi from "@/assets/hot/Palli Pakodi.png";
+
 export interface ComboItem {
   en: string;
   te: string;
@@ -78,6 +79,7 @@ export interface Combo {
 }
 
 export const comboData: Combo[] = [
+  // ── ₹649 offer (250g) ─────────────────────────────────────────────────────
   {
     id: 1,
     nameEn: "Weekly Health Combo",
@@ -85,13 +87,13 @@ export const comboData: Combo[] = [
     items: [
       { en: "Bellam Godhuma Gavvalu", te: "బెల్లం గవ్వలు", image: BellamGavvalu },
       { en: "Palli Chikki", te: "పల్లి చిక్కి", image: BellamPalliChikki },
-      { en: "Bellam Godhuma Gorumittilu", te: "గోరుమిఠీలు", image: BellamGorimittilu }, /*----------Needs to replce --------------*/
-      { en: "Murukulu", te: "మురుకులు", image: ButterMurukulu },
+      { en: "Bellam Godhuma Gorumittilu", te: "గోరుమిఠీలు", image: BellamGorimittilu },
+      { en: " Butter Murukulu", te: "బటర్ మురుకులు", image: ButterMurukulu },
       { en: "Mixture", te: "మిక్చర్", image: Mixture },
     ],
     pricing: {
-      "250": { actual: 700, offer: 599 },
-      "500": { actual: 1400, offer: 1149 },
+      "250": { actual: 750, offer: 649 },
+      "500": { actual: 1500, offer: 1249 },
     },
   },
 
@@ -102,13 +104,13 @@ export const comboData: Combo[] = [
     items: [
       { en: "Bellam Namkeen", te: "బెల్లం నమ్కీన్", image: BellamDiamonds },
       { en: "Mothichoor Bellam Chikki", te: "మోతిచూర్ చిక్కి", image: BellamMothichoorChikki },
-      { en: "Dry Fruit Kajjikayalu", te: "డ్రై ఫ్రూట్ కాజ్జికాయలు", image: DryFruitKajjikaya }, /*----------Needs to replce --------------*/
-      { en: "Butter Ribbon Pakodi", te: "బటర్ రిబ్బన్ పకోడి", image: ButterRibbonPakodi }, /*----------Needs to replce --------------*/
+      { en: "Dry Fruit Kajjikayalu", te: "డ్రై ఫ్రూట్ కాజ్జికాయలు", image: DryFruitKajjikaya },
+      { en: "Butter Ribbon Pakodi", te: "బటర్ రిబ్బన్ పకోడి", image: ButterRibbonPakodi },
       { en: "Cornflakes Mixture", te: "కార్న్ ఫ్లేక్స్ మిక్చర్", image: CornFlakesMixture },
     ],
     pricing: {
-      "250": { actual: 700, offer: 599 },
-      "500": { actual: 1400, offer: 1149 },
+      "250": { actual: 750, offer: 649 },
+      "500": { actual: 1500, offer: 1249 },
     },
   },
 
@@ -118,61 +120,63 @@ export const comboData: Combo[] = [
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
       { en: "Bellam Kommulu", te: "బెల్లం కొమ్ములు", image: BellamKommulu },
-      { en: "Bellam Boondi Mithai", te: "బెల్లం బూంది మిఠాయి", image: BellamBoondiChikki }, /*----------Needs to replce --------------*/
+      { en: "Bellam Boondi Mithai", te: "బెల్లం బూంది మిఠాయి", image: BellamBoondiChikki },
       { en: "Gulabeelu", te: "గులాబీలు", image: Gulabeelu },
       { en: "Saggu Biyyam Chekkalu", te: "సగ్గుబియ్యం చెక్కలు", image: SagguBiyyamChakkalu },
       { en: "Karam Boondi", te: "కారం బూంది", image: KaaramBoondi },
     ],
     pricing: {
-      "250": { actual: 700, offer: 599 },
-      "500": { actual: 1400, offer: 1149 },
+      "250": { actual: 750, offer: 649 },
+      "500": { actual: 1500, offer: 1249 },
     },
   },
 
   {
     id: 4,
     nameEn: "Weekly Health Combo",
-    nameTe: "వీక్లీ హెల్త్ కాంబో", 
+    nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Jeedipappu Chikki", te: "జీడిపప్పు చిక్కి", image: BellamJeedipappuPaakam },
-      { en: "Nuvvula Chimmidi", te: "నువ్వుల చిమ్మిడి", image: BellamNuvvulaChimmidi },
-      { en: "Bellam Sunnundalu", te: "బెల్లం సున్నుండలు", image: BellamSunnunda }, /*----------Needs to replce --------------*/
-      { en: "Pesarapappu Chekkalu", te: "పెసరపప్పు చెక్కలు", image: PesaraPappuChekkalu }, /*----------Needs to replce --------------*/
-      { en: "Agra Mixture", te: "ఆగ్రా మిక్చర్", image: AgraMixture },
+      { en: "Bellam Bobbatlu", te: "బెల్లం బొబ్బట్లు", image: BellamBobbatlu },
+      { en: "Pongadalu", te: "పొంగడాలు", image: BellamPongadalu },
+      { en: "Nuvvula Ariselu", te: "నువ్వుల అరిసెలు", image: BellamNuvvulaArisealu },
+      { en: "Karam Poosa", te: "కారం పూస", image: KaramPoosa },
+      { en: "Palli Pakodi", te: "పల్లి పకోడి", image: PalliPakodi },
     ],
     pricing: {
-      "250": { actual: 900, offer: 799 },
-      "500": { actual: 1800, offer: 1549 },
+      "250": { actual: 750, offer: 649 },
+      "500": { actual: 1500, offer: 1249 },
     },
   },
 
+  // ── ₹699 offer (250g) ─────────────────────────────────────────────────────
   {
     id: 5,
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Bandhar Halwa", te: "బెల్లం బందరు హల్వా", image: BellamBandharuHalwa }, /*----------Needs to replce --------------*/
-      { en: "Dry Fruit Pootharekulu", te: " డ్రై ఫ్రూట్ పూతరేకులు", image: DryFruitBellamPootharekulu },/*----------Needs to replce --------------*/
-      { en: "Bellam Boondi Chikki", te: "బెల్లం బూందీ చిక్కీ", image: BellamBoondiChikki }, /*----------Needs to replce --------------*/
-      { en: "Chitti Pappu Chekodi", te: "చిట్టి చెకోడి", image: ChittiPappuChekodi },/*---------- final  -------------*/
-      { en: "Jeedipappu Pakodi", te: "జీడిపప్పు పకోడి", image: JeediPappuPakodi },
+      { en: "Sajja Appalu", te: "సజ్జ అప్పాలు", image: SajjaAppalu },
+      { en: "Paakam Garelu", te: "పాకం గారెలు", image: PaakamGarelu },
+      { en: "Annamayya Laddu", te: "అన్నమయ్య లడ్డు", image: AnnamayyaLaddu },
+      { en: "Vaamu Poosa", te: "వాము పూస", image: VaamuPusa },
+      { en: "Ghatiya", te: "ఘటియా", image: Ghatiya },
     ],
     pricing: {
-      "250": { actual: 900, offer: 799 },
-      "500": { actual: 1800, offer: 1549 },
+      "250": { actual: 800, offer: 699 },
+      "500": { actual: 1600, offer: 1349 },
     },
   },
 
+  // ── ₹799 offer (250g) ─────────────────────────────────────────────────────
   {
     id: 6,
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Roasted Kalakhand", te: "రోస్టెడ్ కళాఖండ్", image: RoastedKhalakhand }, /*----------Needs to replce --------------*/
-      { en: "Roasted Kova Billalu", te: " ఖాజా", image: RoastedKovaBillalu }, /*---------- final --------------*/
-      { en: "Kaaju Burfy", te: "కాజు బర్ఫీ", image: KaajuBurfy },
-      { en: "Namkeen", te: "నమ్కీన్", image: Namkeens },
-      { en: "Methi Chekkalu", te: "మేతి చెక్కలు", image: MethiChekkalu }, /*----------Needs to replce --------------*/
+      { en: "Bellam Nethi Ariselu", te: "బెల్లం నేతి అరిసెలు", image: BellamNethiAriselu },
+      { en: "Dry Fruit Laddu", te: "డ్రై ఫ్రూట్ లడ్డు", image: DryFruitLaddu },
+      { en: "Bellam Pootharekulu", te: "బెల్లం పూతరేకులు", image: BellamPootharekulu },
+      { en: "Aalu Bhujiya", te: "ఆలు భుజియా", image: Alubujiya },
+      { en: "Janthikalu", te: "జంతికలు", image: Janthikalu },
     ],
     pricing: {
       "250": { actual: 900, offer: 799 },
@@ -180,20 +184,21 @@ export const comboData: Combo[] = [
     },
   },
 
+  // ── ₹899 offer (250g) ─────────────────────────────────────────────────────
   {
     id: 7,
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Nethi Ariselu", te: "బెల్లం నేతి అరిసెలు", image: BellamNethiAriselu }, /*----------Needs to replce --------------*/
-      { en: "Dry Fruit Laddu", te: "డ్రై ఫ్రూట్ లడ్డు", image: DryFruitLaddu },
-      { en: "Bellam Pootharekulu", te: "బెల్లం పూతరేకులు", image: BellamPootharekulu },/*----------Needs to replce --------------*/
-      { en: "Aalu Bhujiya", te: "ఆలు భుజియా", image: Alubujiya },
-      { en: "Janthikalu", te: "జంతికలు", image: Janthikalu },
+      { en: "Jeedipappu Chikki", te: "జీడిపప్పు చిక్కి", image: BellamJeedipappuPaakam },
+      { en: "Nuvvula Chimmidi", te: "నువ్వుల చిమ్మిడి", image: BellamNuvvulaChimmidi },
+      { en: "Bellam Sunnundalu", te: "బెల్లం సున్నుండలు", image: BellamSunnunda },
+      { en: "Pesarapappu Chekkalu", te: "పెసరపప్పు చెక్కలు", image: PesaraPappuChekkalu },
+      { en: "Agra Mixture", te: "ఆగ్రా మిక్చర్", image: AgraMixture },
     ],
     pricing: {
-      "250": { actual: 800, offer: 699 },
-      "500": { actual: 1400, offer: 1149 },
+      "250": { actual: 1000, offer: 899 },
+      "500": { actual: 2000, offer: 1749 },
     },
   },
 
@@ -202,15 +207,15 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Bobbatlu", te: "బెల్లం బొబ్బట్లు", image: BellamBobbatlu },/*----------Needs to replce --------------*/
-      { en: "Pongadalu", te: "పొంగడాలు", image: BellamPongadalu },
-      { en: "Nuvvula Ariselu", te: "నువ్వుల అరిసెలు", image: BellamNuvvulaArisealu },
-      { en: "Karam Poosa", te: "కారం పూస", image: KaramPoosa },
-      { en: "Palli Pakodi", te: "పల్లి పకోడి", image: PalliPakodi },
+      { en: "Bellam Bandhar Halwa", te: "బెల్లం బందరు హల్వా", image: BellamBandharuHalwa },
+      { en: "Dry Fruit Pootharekulu", te: " డ్రై ఫ్రూట్ పూతరేకులు", image: DryFruitBellamPootharekulu },
+      { en: "Bellam Boondi Chikki", te: "బెల్లం బూందీ చిక్కీ", image: BellamBoondiChikki },
+      { en: "Chitti Pappu Chekodi", te: "చిట్టి చెకోడి", image: ChittiPappuChekodi },
+      { en: "Jeedipappu Pakodi", te: "జీడిపప్పు పకోడి", image: JeediPappuPakodi },
     ],
     pricing: {
-      "250": { actual: 700, offer: 599 },
-      "500": { actual: 1400, offer: 1149 },
+      "250": { actual: 1000, offer: 899 },
+      "500": { actual: 2000, offer: 1749 },
     },
   },
 
@@ -219,15 +224,15 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Sajja Appalu", te: "సజ్జ అప్పాలు", image: SajjaAppalu },
-      { en: "Paakam Garelu", te: "పాకం గారెలు", image: PaakamGarelu },
-      { en: "Annamayya Laddu", te: "అన్నమయ్య లడ్డు", image: AnnamayyaLaddu },
-      { en: "Vaamu Poosa", te: "వాము పూస", image: VaamuPusa },
-      { en: "Ghatiya", te: "ఘటియా", image: Ghatiya }, /*----------Needs to replce --------------*/
+      { en: "Roasted Kalakhand", te: "రోస్టెడ్ కళాఖండ్", image: RoastedKhalakhand },
+      { en: "Roasted Kova Billalu", te: " ఖాజా", image: RoastedKovaBillalu },
+      { en: "Kaaju Burfy", te: "కాజు బర్ఫీ", image: KaajuBurfy },
+      { en: "Namkeen", te: "నమ్కీన్", image: Namkeens },
+      { en: "Methi Chekkalu", te: "మేతి చెక్కలు", image: MethiChekkalu },
     ],
     pricing: {
-      "250": { actual: 700, offer: 599 },
-      "500": { actual: 1400, offer: 1149 },
+      "250": { actual: 1000, offer: 899 },
+      "500": { actual: 2000, offer: 1749 },
     },
   },
 ];
