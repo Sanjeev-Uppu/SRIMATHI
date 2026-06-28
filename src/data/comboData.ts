@@ -83,9 +83,9 @@ export const comboData: Combo[] = [
     nameEn: "Weekly Health Combo",
     nameTe: "వీక్లీ హెల్త్ కాంబో",
     items: [
-      { en: "Bellam Gavvalu", te: "బెల్లం గవ్వలు", image: BellamGavvalu },
+      { en: "Bellam Godhuma Gavvalu", te: "బెల్లం గవ్వలు", image: BellamGavvalu },
       { en: "Palli Chikki", te: "పల్లి చిక్కి", image: BellamPalliChikki },
-      { en: "Kajjikayalu", te: "కాజ్జికాయలు", image: DryFruitKajjikaya }, /*----------Needs to replce --------------*/
+      { en: "Bellam Godhuma Gorumittilu", te: "గోరుమిఠీలు", image: BellamGorimittilu }, /*----------Needs to replce --------------*/
       { en: "Murukulu", te: "మురుకులు", image: ButterMurukulu },
       { en: "Mixture", te: "మిక్చర్", image: Mixture },
     ],
