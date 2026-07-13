@@ -150,7 +150,7 @@ Thank you.`
 
       {/* Delivery */}
       <div className="mt-3 bg-purple-100 text-purple-700 rounded-xl p-3 text-sm font-semibold">
-        🚚 Free Door Delivery up to 5 KM Radius
+        🚚 Free Door Delivery up to 10 KM Radius
       </div>
 
       {/* WhatsApp Order Button */}
